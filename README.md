@@ -4,15 +4,13 @@
 About
 --------------
 
-Based on https://github.com/z-classic/zclassic/releases/tag/1.1 - I'm trying to fix some issues with the Windows installer, as it's 900mb right now. This installer is less than 100mb right now.
+Based on https://github.com/z-classic/zclassic/releases/tag/1.1 - I'm trying to fix some issues with the Windows installer, v1.1 is almost 1Gb as it includes the large proving key, this installer is less than 100mb as it downloads the proving key if it's not found on the system.
+
+I've also added a 1 click launcher based on zcash4win meaning that batch files no longer need to be used to start and stop the daemon, the aim is to make this as user friendly as possible. A minimal Java runtime is included also, so there should be no need for any extras to install.
 
 This is untested, unfinished and probably won't download the blockchain as it uses old peer information from github. The peer info is hardcoded at the moment. The intention is to change this in future so it download peer info on launch.
 
-The main changes from the current wallet it that it downloads the 900mb proving key if it's not already on the system, meaning the installer can now be below 100mb.
-
-I've also added a 1 click launcher similar zcash4win meaning that batch files no longer need to be used to start and stop the daemon, the aim is to make this as user friendly as possible. A minimal Java runtime is included also, so there should be no need for any extras to install.
-
-Only use for testing, don't store ZCL funds on this wallet. 
+Only use for testing, don't store ZCL on this wallet, it's untested right now.
 
 I recommend VirtualBox to test install:
 
@@ -28,10 +26,10 @@ Install
 -----------------
 
 ### Windows
-Download zclassic.msi and run, VM recommended for testing
+Download zclassic.zip, unzip, and run zclassic.msi, VM recommended for testing, if you want to check the contents of the zip is valid:
 
 ```
-  File: ‘zclassic.msi’
+  File: zclassic.msi
   Size: 77,905,920    
   MD5:  2e61e837c494389402d3d22d8ad98283
 ```
