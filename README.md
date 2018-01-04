@@ -1,4 +1,4 @@
-## ZClassic Windows Wallet 1.2 for Windows
+## ZClassic Windows Wallet 1.2 for Windows x64
 #### (1-click installer, alpha, untested, don't use to store funds)
 
 About
