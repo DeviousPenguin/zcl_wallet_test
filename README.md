@@ -31,9 +31,9 @@ Install
 Download zclassic.msi and run, VM recommended for testing
 
 ```
-  File: ‘./zclassic.msi’
-  Size: 77905920    
-  MD5: 2e61e837c494389402d3d22d8ad98283
+  File: ‘zclassic.msi’
+  Size: 77,905,920    
+  MD5:  2e61e837c494389402d3d22d8ad98283
 ```
 
 To-Do
