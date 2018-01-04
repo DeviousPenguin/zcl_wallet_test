@@ -1,4 +1,5 @@
-# ZClassic Windows Wallet 1.2 test 1 click installer for Windows (alpha, untested, don't use to store funds)
+## ZClassic Windows Wallet 1.2 for Windows
+### (1-click installer, alpha, untested, don't use to store funds)
 
 About
 --------------
