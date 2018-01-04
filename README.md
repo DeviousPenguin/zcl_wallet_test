@@ -4,7 +4,7 @@
 About
 --------------
 
-Based on https://github.com/z-classic/zclassic/releases/tag/1.1 - I'm trying to fix some issues with the Windows installer, as it's 900mb right now. My installer 
+Based on https://github.com/z-classic/zclassic/releases/tag/1.1 - I'm trying to fix some issues with the Windows installer, as it's 900mb right now. This installer is less than 100mb right now.
 
 This is untested, unfinished and probably won't download the blockchain as it uses old peer information from github. The peer info is hardcoded at the moment. The intention is to change this in future so it download peer info on launch.
 
